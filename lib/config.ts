@@ -17,7 +17,7 @@ export const config = {
   merchantWallet:
     process.env.MERCHANT_WALLET ?? 'HMvrkW1sAkhVDGHCpudLbSQjvrGWE3qtyqmyVZzhDEHm',
 
-  priceEur: Number(process.env.PRICE_EUR ?? '200'),
+  priceEur: Number(process.env.PRICE_EUR ?? '375'),
 
   // Code d'accès (vide = pas de protection).
   accessCode: process.env.ACCESS_CODE ?? '',
